@@ -1,0 +1,54 @@
+Sanjeet Kumar  
+Linked In: https://www.linkedin.com/in/ sanjeet -kumar/                                            Email:  sanjeet10098@gmail.com  
+  GitHub:  https://github.com/Sanjeet3326                                                               Mobile: +91 7859038942  
+    
+SKILLS  
+Languages : C/C++,  Python,  SQL ( injection ), Bash  
+Tools/Platforms : John the Ripper,  Hydra,  Wireshark, Metasploit , Nmap,  SET,  TryHackMe 
+Soft Skills : Problem -Solving,  Team  Player,  Receptive , Meticulous  
+TRAINING  
+W3 Grads      Jun’ 25 – Jul’ 25 
+DSA using java,  
+• Gained hands -on experience in core Java concepts including OOP, exception handling, multithreading, and 
+collections.  
+• Applied algorithms including searching, sorting, recursion, dynamic programming, greedy methods, and backtracking.  
+• Strengthened logical thinking by solving real -world algorithmic challenges using Java . 
+PROJECTS  
+Dreamer – Notes Management Platform |GitHub  May’  24 
+• Developed  a streamlined notes -management platform aimed at improving personal productivity and organizing 
+user-generated content efficiently.  
+• Implemented  core functionalities using HTML, CSS, JavaScript, Git, and GitHub , applying version control 
+workflows and modern web -development practices.  
+• Delivered  a responsive, user -friendly interface that enhanced usability and enabled users to create, edit, and 
+maintain notes seamlessly . 
+Keylogger – Educational Cybersecurity Project |GitHub  Apr’ 25 
+• Designed  a key -logging application strictly for ethical and educational purposes , focused on understanding input -
+capture mechanisms and security vulnerabilities . 
+• Executed  the project using Python, keyboard libraries, file handling, Git, and GitHub , strengthening knowledge in system -
+level event tracking and secure coding practices . 
+• Demonstrated  improved awareness of system security by documenting risks, defensive techniques, and preventive 
+measures for protecting users against unauthorized keylogging attacks . 
+Password Checking System – Security Validation Tool |GitHub                                                                       Jun’ 25 
+• Developed  a password -verification system designed to validate user credentials and strengthen authentication 
+security  
+• Enforced  core logic using Python, conditional operations, string handling, regex, and Git/GitHub , focusing on 
+secure input processing and rule -based password evaluation . 
+• Enhanced  system reliability by ensuring accurate strength detection, improving user security awareness, and 
+reducing weak -password risks . 
+ 
+CERTIFICATES  
+The Bits and Bytes of computer networking  — Coursera                                          Sep’24         
+Learn C++, Learn Python — Code Chef  Apr’ 25 
+Responsive Web Design — FreeCodeCamp  Sep’ 25 
+DSA using java and C ++   — W3 grads                                                                                                                        Mar’ 24 
+ 
+EDUCATION  
+Lovely  Professional  University      Phagwara,  Punjab  
+Bachelor  of Technology   
+Computer  Science  and Engineering;  CGPA:  6.63 
+S.B College, Ara   
+Intermediate       Mar’ 21 – May’  23 
+PCM;  Percentage:  76% 
+Jean Paul’s High School, Ara   
+Matriculation       Mar’ 20 – May’  21 
+Percentage:  83% 

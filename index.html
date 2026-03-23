@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjeet Kumar | Cybersecurity Student</title>
+    <meta name="description"
+        content="Portfolio of Sanjeet Kumar, a Cybersecurity Student specializing in ethical hacking and network security.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Initial Loading Screen -->
+    <div id="preloader">
+        <div class="loader-content">
+            <span class="loader-prefix"> </span>
+            <span class="loader-counter" id="loader-counter">0</span><span class="loader-percent">%</span>
+        </div>
+        <div class="loader-bar-container">
+            <div class="loader-bar" id="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">My portfolio<span class="accent"></span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <p class="greeting"></p>
+                    <h1 class="name">Sanjeet Kumar</h1>
+                    <h2 class="title">&lt;<span id="typed-subtitle"></span> /&gt;</h2>
+                    <p class="description">
+                        I am a B.Tech Computer Science student specializing in Cybersecurity. I build secure systems and
+                        explore ethical hacking tools.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-terminal">
+                    <!-- A decorative terminal window element -->
+                    <div class="terminal-header">
+                        <span class="btn-red"></span>
+                        <span class="btn-yellow"></span>
+                        <span class="btn-green"></span>
+                        <span class="terminal-title">sanjeet@kali:~</span>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="prompt">guest@portfolio:~$</span> whoami</p>
+                        <p class="terminal-output"><i class="fas fa-user-ninja"></i> sanjeet_kumar</p>
+                        <p><span class="prompt">guest@portfolio:~$</span> cat skills.txt</p>
+                        <p class="terminal-output"><i class="fa-brands fa-python"></i> Python, <i
+                                class="fas fa-file-code"></i> C/C++, <i class="fas fa-database"></i> SQL, <i
+                                class="fas fa-terminal"></i> Bash...</p>
+                        <p><span class="prompt">guest@portfolio:~$</span> <span class="cursor">_</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-image-container" data-tilt data-tilt-max="10" data-tilt-speed="400"
+                        data-tilt-reverse="true">
+                        <!-- User should add their real image path here -->
+                        <img src="images/Screenshot_2025-08-15_160503-removebg-preview.png" alt="Sanjeet Kumar"
+                            class="about-image"
+                            onerror="this.src='https://via.placeholder.com/400x400/1a1a1a/00f0ff?text=Sanjeet+Kumar';">
+                    </div>
+                    <div class="about-text-container">
+                        <div class="about-text">
+                            <p>Hello! I am Sanjeet Kumar, currently pursuing a B.Tech in Computer Science with a
+                                specialization in Cybersecurity at Lovely Professional University (CGPA: 6.63).</p>
+                            <p>I am deeply passionate about understanding how systems work and how to secure them. My
+                                journey involves exploring everything from ethical hacking and penetration testing to
+                                building robust and secure applications.</p>
+                            <p>I have trained with W3 Grads in DSA using Java and continuously practice problem-solving,
+                                teamwork, and meticulous execution in my projects.</p>
+                        </div>
+                        <div class="about-stats mt-4">
+                            <div class="education-block">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div>
+                                    <h4>Lovely Professional University</h4>
+                                    <p class="edu-degree">B.Tech CSE (Cybersecurity) | CGPA: 7.00</p>
+                                </div>
+                            </div>
+                            <div class="education-block">
+                                <i class="fas fa-university"></i>
+                                <div>
+                                    <h4>S.B College, Ara</h4>
+                                    <p class="edu-degree">Intermediate (PCM) | 76% | Mar '21 - May '23</p>
+                                </div>
+                            </div>
+                            <div class="education-block">
+                                <i class="fas fa-school"></i>
+                                <div>
+                                    <h4>Jean Paul's High School, Ara</h4>
+                                    <p class="edu-degree">Matriculation | 83% | Mar '20 - May '21</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Tech Stack & Defenses</h2>
+                <div class="skills-grid new-grid">
+                    <!-- Programming -->
+                    <div class="skill-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true"
+                        data-tilt-max-glare="0.2">
+                        <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+                        <div class="skill-info">
+                            <h4>Python</h4>
+                            <p>Language</p>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true"
+                        data-tilt-max-glare="0.2">
+                        <div class="skill-icon"><i class="fas fa-file-code"></i></div>
+                        <div class="skill-info">
+                            <h4>C / C++</h4>
+                            <p>Language</p>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true"
+                        data-tilt-max-glare="0.2">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <div class="skill-info">
+                            <h4>SQL</h4>
+                            <p>Database Query</p>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true"
+                        data-tilt-max-glare="0.2">
+                        <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+                        <div class="skill-info">
+                            <h4>Bash</h4>
+                            <p>Scripting</p>
+                        </div>
+                    </div>
+
+                    <!-- Cybersecurity -->
+                    <div class="skill-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true"
+                        data-tilt-max-glare="0.2">
+                        <div class="skill-icon"><i class="fas fa-user-secret"></i></div>
+                        <div class="skill-info">
+                            <h4>Ethical Hacking</h4>
+                            <p>Offensive Security</p>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true"
+                        data-tilt-max-glare="0.2">
+                        <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                        <div class="skill-info">
+                            <h4>Network Analysis</h4>
+                            <p>Security Monitoring</p>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true"
+                        data-tilt-max-glare="0.2">
+                        <div class="skill-icon"><i class="fas fa-shield-halved"></i></div>
+                        <div class="skill-info">
+                            <h4>Pen Testing</h4>
+                            <p>Vulnerability Assessment</p>
+                        </div>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="skill-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true"
+                        data-tilt-max-glare="0.2">
+                        <div class="skill-icon"><i class="fa-brands fa-linux"></i></div>
+                        <div class="skill-info">
+                            <h4>Kali Linux</h4>
+                            <p>OS Distribution</p>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true"
+                        data-tilt-max-glare="0.2">
+                        <div class="skill-icon"><i class="fas fa-biohazard"></i></div>
+                        <div class="skill-info">
+                            <h4>Metasploit</h4>
+                            <p>Exploitation</p>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true"
+                        data-tilt-max-glare="0.2">
+                        <div class="skill-icon"><i class="fas fa-water"></i></div>
+                        <div class="skill-info">
+                            <h4>Wireshark</h4>
+                            <p>Packet Analyzer</p>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true"
+                        data-tilt-max-glare="0.2">
+                        <div class="skill-icon"><i class="fas fa-map"></i></div>
+                        <div class="skill-info">
+                            <h4>Nmap</h4>
+                            <p>Network Scanner</p>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true"
+                        data-tilt-max-glare="0.2">
+                        <div class="skill-icon"><i class="fa-brands fa-git-alt"></i></div>
+                        <div class="skill-info">
+                            <h4>Git</h4>
+                            <p>Version Control</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="certificates">
+            <div class="container">
+                <h2 class="section-title">Certificates</h2>
+
+                <div class="projects-grid">
+
+                        <div class="cert-card">
+                            <div class="cert-image">
+                                <!-- User should add their coursera cert image path here -->
+                                <img src="screenshots/Screenshot 2026-03-22 184640.png" alt="The Bits and Bytes of Computer Networking" onerror="this.src='https://images.unsplash.com/photo-1516321318423-f06f85e504b3?width=800&auto=format&fit=crop&q=80'">
+                            </div>
+                            <div class="cert-content">
+                                <h4>The Bits and Bytes of Computer Networking</h4>
+                                <p class="edu-degree">Coursera | Sep '24</p>
+                            </div>
+                        </div>
+
+                        <div class="cert-card">
+                            <div class="cert-image">
+                                <!-- User should add their freecodecamp cert image path here -->
+                                <img src="screenshots/Screenshot 2026-03-22 184729.png" alt="Responsive Web Design" onerror="this.src='https://images.unsplash.com/photo-1547394765-185e1e68f34e?width=800&auto=format&fit=crop&q=80'">
+                            </div>
+                            <div class="cert-content">
+                                <h4>Responsive Web Design</h4>
+                                <p class="edu-degree">FreeCodeCamp | Sep '25</p>
+                            </div>
+                        </div>
+
+                        <div class="cert-card">
+                            <div class="cert-image">
+                                <!-- User should add their w3grads cert image path here -->
+                                <img src="screenshots/Screenshot 2026-03-22 184913.png" alt="DSA using Java and C++" onerror="this.src='https://images.unsplash.com/photo-1517694712202-14dd9538aa97?width=800&auto=format&fit=crop&q=80'">
+                            </div>
+                            <div class="cert-content">
+                                <h4>DSA using Java and C++</h4>
+                                <p class="edu-degree">W3 grads | Mar '24</p>
+                            </div>
+                        </div>
+                        
+                        <div class="cert-card">
+                            <div class="cert-image">
+                                <!-- User should add their tryhackme cert image path here -->
+                                <img src="screenshots/Screenshot 2026-03-22 184827.png" alt="Pre Security Learning Path" onerror="this.src='https://images.unsplash.com/photo-1555949963-aa79dcee981c?width=800&auto=format&fit=crop&q=80'">
+                            </div>
+                            <div class="cert-content">
+                                <h4>Pre Security Learning Path</h4>
+                                <p class="edu-degree">TryHackMe | Dec '25</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Latest Exploits (Projects)</h2>
+                <div class="projects-grid">
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <!-- Placeholder image with a cyber aesthetic, user can replace "Dreamer.png" -->
+                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800"
+                                alt="Dreamer Note Management">
+                            <div class="project-overlay"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Dreamer</h3>
+                            <p>A streamlined notes-management platform aimed at improving personal productivity and
+                                organizing user-generated content efficiently.</p>
+                            <div class="project-tech">
+                                <span><i class="fa-brands fa-html5"></i> HTML/CSS</span>
+                                <span><i class="fa-brands fa-js"></i> JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Sanjeet3326" class="btn btn-primary" target="_blank"><i
+                                        class="fab fa-github"></i>
+                                    Source</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <!-- Placeholder image with a cyber aesthetic, user can replace "Keylogger.png" -->
+                            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=800"
+                                alt="Ethical Keylogger">
+                            <div class="project-overlay"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Keylogger</h3>
+                            <p>An educational key-logging application designed strictly for ethical purposes, focusing
+                                on input-capture mechanisms.</p>
+                            <div class="project-tech">
+                                <span><i class="fa-brands fa-python"></i> Python</span>
+                                <span><i class="fas fa-book-open"></i> Libraries</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Sanjeet3326" class="btn btn-primary" target="_blank"><i
+                                        class="fa-brands fa-github"></i>
+                                    Source</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <!-- Premium cyber aesthetic preview for Password Checking System -->
+                            <img src="images/password_system.png"
+                                alt="Password Checker">
+                            <div class="project-overlay"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Password Checking System</h3>
+                            <p>A password-verification system to validate user credentials and strengthen authentication
+                                security.</p>
+                            <div class="project-tech">
+                                <span><i class="fa-brands fa-python"></i> Python</span>
+                                <span><i class="fas fa-code"></i> Regex</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Sanjeet3326" class="btn btn-primary" target="_blank"><i
+                                        class="fab fa-github"></i>
+                                    Source</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="resume">
+            <div class="container text-center">
+                <h2 class="section-title">Resume</h2>
+                <p class="resume-text">Want to see my full qualifications, education, and experience? Download my resume
+                    below.</p>
+                <a href="Sanjeet cv.pdf" target="_blank" class="btn btn-primary btn-large">
+                    <i class="fas fa-download"></i> Download Resume (PDF)
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Initiate Connection</h2>
+                <div class="contact-content">
+                    <p class="contact-text">Currently open for new opportunities, CTF collaborations, and security
+                        research.</p>
+                    <a href="mailto:sanjeet10098@gmail.com" class="btn btn-primary btn-large">Say Hello <i
+                            class="fas fa-paper-plane"></i></a>
+
+                    <div class="social-links">
+                        <a href="https://github.com/Sanjeet3326" target="_blank" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sanjeet-kumar/" target="_blank" aria-label="LinkedIn"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:sanjeet10098@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Sanjeet Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Libraries -->
+    <!-- Typed.js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Vanilla-Tilt.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <!-- GSAP Core & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
