@@ -72,6 +72,8 @@ body {
     }
 }
 
+
+
 /* ==========================================================================
    Preloader
    ========================================================================== */
@@ -859,6 +861,7 @@ footer p {
     transition: opacity 0.5s;
 }
 
+/* The Glowing Border */
 /* The Glowing Border */
 .project-card::before {
     padding: 2px;
